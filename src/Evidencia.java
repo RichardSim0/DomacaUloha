@@ -9,7 +9,7 @@ public class Evidencia {
         int carrot = 48;
         String city = "Bratislava";
         String SPZ = "BT235CA";
-        String fuelConsumption = "5.6l/100km";
+        double fuelConsumption = 5.6/100;
         String addressIP = "192.168.48.39";
 
         double predaj = carrot / contracts;

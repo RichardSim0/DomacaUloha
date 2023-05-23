@@ -21,10 +21,10 @@ public class Main {
 
 
     public static void ukol5() {
-        double cena = 0; // Nastavíme do proměnné hodnotu 0
+        BigDecimal cena = BigDecimal.valueOf(0); // Nastavíme do proměnné hodnotu 0
         // Desetkrát přičteme hodnotu jedna desetina (0,1):
         for (int i = 0; i < 10; i++) {
-            cena += 0.1;
+            cena = cena.add(BigDecimal.valueOf(0.1));
                // operátor "+=" znamená: přičti ke stávající
 //                hodnotě navíc 0.1
        }
